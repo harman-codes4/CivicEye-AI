@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local secrets / config
+.env
+
+# Model weights are large and often proprietary — never commit them.
+models/*.pt
+models/*.onnx
+models/*.engine
